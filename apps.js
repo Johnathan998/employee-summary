@@ -152,7 +152,7 @@ function init() {
                     init();
                 }
                 else if (res_five.nextStep == "Save to HTML file") {
-                    fs.readFile("./templates/main.html", 'utf8', function (err, data) {
+                    fs.readFile("./templates/index.html", 'utf8', function (err, data) {
                         if (err) {
                             return console.log(err);
                         }
